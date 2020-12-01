@@ -18,7 +18,7 @@
     "test": "run-s build test:*",
     "test:full": "nyc mocha",
     "test:lint": "eslint src --ext .ts",
-    "test:prettier": "prettier \"src/**/*.ts\" --list-different",
+    "__test:prettier": "prettier \"src/**/*.ts\" --list-different",
     "version": "standard-version",
     "watch:test": "mocha --config .mocha-testncode.js"
   },
